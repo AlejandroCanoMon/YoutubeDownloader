@@ -20,13 +20,13 @@ Install required Python packages:
 ## 🗂️ Folder Structure
 
 Place FFmpeg as follows if using the portable version:
-
+```
 📁 YoutubeDownloader/
 ├── ffmpeg/
 │   └── bin/
 │       └── ffmpeg.exe
 ├── youtube.py
-
+```
 If FFmpeg is added to your system PATH, the portable folder is not necessary.
 
 ---
