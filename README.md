@@ -15,27 +15,29 @@ A lightweight GUI tool built with Python and `yt-dlp` to download YouTube videos
 ## 🗂️ Project Structure
 
 To work correctly, your project folder **must include FFmpeg** with the following structure:
-
-\```
-📁 your_project_directory/
+```\
+📁 YoutubeDownloader/
 ├── ffmpeg/
 │   └── bin/
 │       └── ffmpeg.exe
 ├── youtube.py
-\```
+
+```
 
 - `ffmpeg/bin/ffmpeg.exe` → This is the binary needed to merge video + audio.
-- `downloader.py` → Your main Python script.
+- `downloader.py` → Python script.
 
 If you package the project as a `.exe` with PyInstaller, make sure the FFmpeg folder is placed **next to the executable**, like so:
 
-\```
+
+```
 📁 YouTubeDownloader/
 ├── ffmpeg/
 │   └── bin/
 │       └── ffmpeg.exe
 ├── youtube.exe
-\```
+
+```
 
 ---
 
@@ -55,12 +57,13 @@ After downloading:
 ## 🚀 How to Run
 
 If you're using the `.py` version:
+```
+\bash
+python youtube.py
+\
+```
 
-\```bash
-python downloader.py
-\```
-
-If you're using the `.exe` version (from PyInstaller), just double-click `downloader.exe`.
+If you're using the `.exe` version (from PyInstaller), just double-click `youtube.exe`.
 
 ---
 
@@ -75,7 +78,7 @@ pip install pyinstaller
 
 2. Generate the executable:
 \```bash
-pyinstaller --onefile downloader.py
+pyinstaller --onefile youtube.py
 \```
 
 3. Move the `ffmpeg` folder next to the `.exe` in the `dist/` directory.
