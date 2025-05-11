@@ -25,13 +25,13 @@ To work correctly, your project folder **must include FFmpeg** with the followin
 ```
 
 - `ffmpeg/bin/ffmpeg.exe` → This is the binary needed to merge video + audio.
-- `downloader.py` → Python script.
+- `youtube.py` → Python script.
 
 If you package the project as a `.exe` with PyInstaller, make sure the FFmpeg folder is placed **next to the executable**, like so:
 
 
 ```
-📁 YouTubeDownloader/
+📁 YouTube/
 ├── ffmpeg/
 │   └── bin/
 │       └── ffmpeg.exe
