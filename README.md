@@ -13,7 +13,7 @@ A lightweight GUI built with Python and `yt-dlp` to download YouTube videos with
 
 Install required Python packages:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ---
 
@@ -35,7 +35,7 @@ If FFmpeg is added to your system PATH, the portable folder is not necessary.
 
 Run the script with:
 
-python youtube.py
+`python youtube.py`
 
 ---
 
@@ -45,11 +45,11 @@ To create a `.exe` (requires FFmpeg next to the binary):
 
 1. Install PyInstaller:
 
-pip install pyinstaller
+`pip install pyinstaller`
 
 2. Build the executable:
 
-pyinstaller --onefile youtube.py
+`pyinstaller --onefile youtube.py`
 
 3. Place the `ffmpeg` folder (same structure) next to `youtube.exe` inside `/dist`.
 
